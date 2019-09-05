@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  padding: 20px;
+  background-color: rgb(172, 32, 109);
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+nav .link {
+  margin-left: 20px;
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  text-decoration: none;
+}
+nav .link:hover {
+  color: rgb(153, 55, 55);
+}
+
+.jen-image {
+  display: block;
+  width: 500px;
+  height: 500px;
+  border-color: rgb(172, 32, 109);
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: solid;
+  margin: 40px 0 40px 0;
+}
+#welcome-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(212, 123, 138);
+  color: rgb(131, 22, 22);
+  height: 100vh;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(190, 60, 82);
+  position: relative;
+}
+
+.port .project-tile {
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 350px;
+  height: 250px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 2px;
+  margin: 40px 0 40px 0;
+  border-color: rgb(238, 59, 128);
+}
+
+.cont {
+  text-align: center;
+  margin: 40px 0 40px 0;
+  background-color: rgb(190, 60, 82);
+}
+
+.contact-img {
+  width: 100px;
+  margin-left: 30px;
+}
+
+.cont .contact-img:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+
