@@ -3,6 +3,7 @@ a list of mini projects created while learning html, css and javascript
 
 …or create a new repository on the command line
 
+
 echo "# Mini_projects" >> README.md
 git init
 git add README.md
