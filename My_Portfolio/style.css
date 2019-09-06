@@ -45,6 +45,7 @@ nav .link:hover {
   align-items: center;
   background-color: rgb(196, 90, 107);
   position: relative;
+  height: 1000px;
 }
 
 .port .project-tile {
@@ -60,6 +61,23 @@ nav .link:hover {
   border-width: 2px;
   margin: 40px 0 40px 0;
   border-color: rgb(238, 59, 128);
+}
+
+.img-text {
+  text-align: center;
+  width: 350px;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  font-size: 35px;
+}
+
+#projects a:hover {
+  color: rgb(153, 55, 55);
+}
+
+.img-text img {
+  display: block;
+  margin: 0 auto;
 }
 
 .cont {
