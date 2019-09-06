@@ -5,7 +5,6 @@
 nav {
   padding: 20px;
   background-color: rgb(172, 32, 109);
-  width: 100%;
   top: 0;
   left: 0;
 }
@@ -33,9 +32,9 @@ nav .link:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 100vh;
   background-color: rgb(212, 123, 138);
   color: rgb(131, 22, 22);
-  height: 100vh;
 }
 
 #projects {
