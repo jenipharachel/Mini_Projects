@@ -1,0 +1,22 @@
+#heads {
+  text-align: center;
+  color: teal;
+}
+#content {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  background-color: #1e90ff;
+  color: blue;
+}
+#survey-form {
+  display: flex;
+  flex-direction: column;
+}
+#submit {
+  padding: 5px;
+  background-color: rgb(55, 168, 168);
+  border: none;
+}
+#submit:hover {
+  background-color: rgb(7, 51, 51);
+}

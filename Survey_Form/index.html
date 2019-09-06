@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tribute Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="heads">
+        <h1 id="title">Customer Survey Form</h1>
+        <p id="description">Please fill up the below form</p>
+    </div>
+        
+    <div id="content">
+        <form id="survey-form">
+          <label for="name" id="name-label">
+          *Name: <input id="name" type="name" placeholder="Enter your name" required>
+          </label></br>
+          
+          <label for="email" id="email-label">
+        *Email: <input id="email" type="email" placeholder="Enter your email" required>
+          </label></br>
+        
+        <label for="number" id="number-label">
+        *Age: <input id="number" type="number" placeholder="Enter your age" min="18" max="60" required>
+        </label></br>
+        
+        <p>Gender: <label for="dropdown">
+          <select name:"sex" id="dropdown">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+          </label></p></br>
+        
+        <p>Food most preferred by adults: 
+          <label for="burger">
+            <input id="burger" type="radio" name="food" value="burger">Burger</label>
+          
+          <label for="pizza">
+            <input id="pizza" type="radio" name="food" value="pizza">Pizza</label>
+          
+          <label for="biriyani">
+            <input id="biriyani" type="radio" name="food" value="biriyani">Biriyani</label>
+        </p>
+        
+        <p>Dessert most preferred by adults: 
+          <label for="icecream">
+            <input id="icecream" type="checkbox" name="dessert" value="icecream">Icecream</label>
+          
+          <label for="chocolate">
+            <input type="checkbox" name="dessert" value="chocolate">Chocolate</label>
+          
+          <label for="fruit">
+            <input id="fruit" type="checkbox" name="dessert" value="fruit">Fruit</label>
+        </p>
+        <p>Comments:
+        <textarea rows="3" cols="50">
+          </textarea></p>
+        
+        <p><button type="submit" value="submit" id="submit">Submit</button></p>
+        </form>
+    </div>
+  </body>
+</html>
